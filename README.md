@@ -38,7 +38,7 @@ Item: <title> by <author> (<year>)
 
 ## Creating the `Album` Subclass
 
-The `Album` class is a subclass of the `LibraryItem` class and should contain the following additiohnal `protected` fields:
+The `Album` class is a subclass of the `LibraryItem` class and should contain the following additional `protected` fields:
 
 | Property   | Type    | Description                             |
 |------------|---------|-----------------------------------------|
@@ -68,7 +68,7 @@ Album: <title> by <author> (<year>) - <trackCount> tracks
 | `toString`      | None                                                                  | String       | Returns a string representation of the album               |
 
 
-## Creawting the `Movie` Subclass
+## Creating the `Movie` Subclass
 
 The `Movie` class is a subclass of the `LibraryItem` class and should contain the following additional `protected` fields:
 
@@ -121,7 +121,7 @@ Finally, you will need to override the `toString` method to return a string repr
 
 You should override the `toString` method to return a string representation of the `Book` object in the following format:
 
-```java
+```
 "Book: <title> by <author> (<year>) - <pageCount> pages"
 ```
 
